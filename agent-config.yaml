@@ -3,7 +3,7 @@ ssh_authorized_keys:
 
 k3os:
   environment:
-    K3S_URL: https://k3os-server.local:6443
+    K3S_URL: https://k3os-server:6443
     K3S_TOKEN: K10eab990fbdb5f1d23e80e485d6ee4152d205bad52f37462840d9a5d059754fcce::server:4543430000bc458e019c2e50794afdc8
   k3s_args:
   - agent
