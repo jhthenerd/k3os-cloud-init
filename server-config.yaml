@@ -1,7 +1,9 @@
 ssh_authorized_keys:
 - github:jhthenerd
 
-hostname: k3os-server-01.local
+hostname: k3os-server.local
 
 k3os:
+  k3s_args:
+  - server
   password: "$1$JT/KadHo$OAbkrRTVieI6hlEBVuXys."
